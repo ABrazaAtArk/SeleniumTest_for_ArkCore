@@ -6,7 +6,7 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 public class IE_Browser {
 	
 	
-	public static void main(String[] args) throws ClassNotFoundException, SQLException {
+	public static void main(String[] args)  {
 
 		
 	System.setProperty("webdriver.ie.driver", "C:\\Selenium\\IEDriverServer.exe");	
