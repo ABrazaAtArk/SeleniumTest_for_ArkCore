@@ -23,7 +23,10 @@
         <configuration>
           <mainClass>FireFox_Browser</mainClass>
         </configuration>
-</plugin>
+        <configuration>
+          <mainClass>IE_Browser</mainClass>
+        </configuration>
+       </plugin>
     </plugins>
   </build>
   <dependencies>
