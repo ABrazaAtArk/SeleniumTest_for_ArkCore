@@ -21,10 +21,15 @@
         <artifactId>exec-maven-plugin</artifactId>
         <version>1.4.0</version>
         <configuration>
-          <mainClass>FireFox_Browser</mainClass>
-        </configuration>
-        <configuration>
           <mainClass>IE_Browser</mainClass>
+        </configuration>
+       </plugin>
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>exec-maven-plugin</artifactId>
+        <version>1.4.0</version>
+        <configuration>
+          <mainClass>FireFox_Browser</mainClass>
         </configuration>
        </plugin>
     </plugins>
