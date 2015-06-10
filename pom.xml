@@ -16,16 +16,7 @@
           <target/>
         </configuration>
       </plugin>
-      <plugin>
-        <groupId>com.arknss.firefox_browser</groupId>
-        <artifactId>exec-maven-plugin</artifactId>
-        <version>1.4.0</version>
-        <configuration>
-          <mainClass>FireFox_Browser</mainClass>
-        </configuration>
-       </plugin>
-      <plugin>
-        <groupId>com.arknss.chrome_browser</groupId>
+        <groupId>org.codehaus.mojo</groupId>
         <artifactId>exec-maven-plugin</artifactId>
         <version>1.4.0</version>
         <configuration>
