@@ -12,6 +12,7 @@ public class Chrome_Browser {
 
 		driver.get("http://localhost:8012/AssetCore/");
 		driver.manage().window().maximize();
+		System.out.println("Started Chrome Driver Browser Testing");
 		System.out.println(driver.getTitle());
 	  
 	    driver.get("http://localhost:8012/AssetCore/login");
@@ -38,6 +39,7 @@ public class Chrome_Browser {
 	    
 	    driver.close();
 	    System.out.println("Connection closed");
+	    System.out.println("Ended Chrome Driver Browser Testing");
 
 	}
 
