@@ -11,6 +11,7 @@ public class FireFox_Browser {
 		WebDriver driver = new FirefoxDriver();
 		driver.get("http://localhost:8012/AssetCore/");
 		driver.manage().window().maximize();
+		System.out.println("Started FireFox Browser Testing");
 		System.out.println(driver.getTitle());
 	  
 	    driver.get("http://localhost:8012/AssetCore/login");
@@ -37,6 +38,7 @@ public class FireFox_Browser {
 	    
 	    driver.close();
 	    System.out.println("Connection closed");
+	    System.out.println("Ended FireFox Browser Testing");
 
 	}
 
