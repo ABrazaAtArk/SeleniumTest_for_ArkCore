@@ -14,6 +14,7 @@ public class IE_Browser {
 	WebDriver driver = new InternetExplorerDriver();
 	driver.get("http://localhost:8012/AssetCore/");
 	driver.manage().window().maximize();
+	System.out.println("Start of IE_Browser Testing");
 	System.out.println(driver.getTitle());
   
     driver.get("http://localhost:8012/AssetCore/login");
@@ -40,6 +41,7 @@ public class IE_Browser {
     
     driver.close();
     System.out.println("Connection closed");
+    System.out.println("End of IE_Browser Testing");
 	}
 
 }
