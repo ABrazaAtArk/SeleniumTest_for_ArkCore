@@ -21,7 +21,7 @@
         <artifactId>exec-maven-plugin</artifactId>
         <version>1.4.0</version>
         <configuration>
-          <mainClass>FireFox_Browser</mainClass>
+          <mainClass>Chrome_Browser</mainClass>
         </configuration>
        </plugin>
     </plugins>
