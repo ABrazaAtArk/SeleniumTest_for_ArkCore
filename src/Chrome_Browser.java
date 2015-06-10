@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.*;
 public class Chrome_Browser {
 	 
 	
-	public static void main(String[] args) {
+	public static void main(String[] args) throws ClassNotFoundException, SQLException {
 		System.setProperty("webdriver.chrome.driver", "C:\\Selenium\\chromedriver.exe");	
 		WebDriver driver = new ChromeDriver();
 
